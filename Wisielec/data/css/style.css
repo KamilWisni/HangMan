@@ -1,0 +1,157 @@
+@font-face {
+    src: url(./Dancing_Script/static/DancingScript-Regular.ttf);
+    font-family: coffee;
+}
+
+@font-face {
+    src: url(./Nova_Mono/NovaMono-Regular.ttf);
+    font-family: moonspace;
+}
+
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #ffffff;
+}
+
+#box {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#wisielec {
+    margin: 14px auto 0 auto;
+    width: 630px;
+    height: 365px;
+    border: 1px solid #212121;
+}
+
+#img {
+    width: 630px;
+    height: 365px;
+}
+
+#wisielec img {
+    width: 630px;
+    height: 365px;
+    margin: 0;
+    padding: 0;
+}
+
+#onhoverbox {
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    opacity: 0;
+    background-color: #888888;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 0.1s linear;
+    cursor: default;
+}
+
+#overlay span {
+    position: relative;
+    top: 35%;
+    color: #eeeeee;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: coffee;
+}
+
+#overlay:hover {
+    opacity: 45%;
+}
+
+#slogan {
+    font-family: moonspace;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 120px;
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
+    margin: 25px 0 10px 0;
+}
+
+#letters {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.letter {
+    
+    color: #cacaca;
+    width: 53px;
+    height: 53px;
+    border-radius: 21px;
+    border: 1px solid #b6b6b6;
+    text-align: center;
+    font-size: 29px;
+    font-family: coffee;
+    margin: 6px;
+    display: inline-block;
+}
+
+.letter:hover {
+    cursor: pointer;
+    border: 1px solid #f6f6f6;
+    color: #f6f6f6;
+}
+
+.clear {
+    clear: both;
+}
+
+.thend {
+    width: 450px;
+    color: #cccccc;
+    text-align: center;
+    display: inline-block;
+}
+
+.thend span {
+    display: inline-block;
+    text-align: center;
+}
+
+.orspan {
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-family: monospace;
+}
+
+.playagain {
+    margin-top: 50px;
+    font-size: 70px;
+    font-family: coffee;
+    padding: 0;
+    display: inline-block;
+}
+
+#playagain-l {
+    color: #da1111;
+}
+
+#playagain-l:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#playagain-w {
+    color: #11da22;
+}
+
+#playagain-w:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
